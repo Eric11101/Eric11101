@@ -1,0 +1,70 @@
+"git init"
+use: Initializes a new Git repository
+Ex: git init
+
+==============================================================================================
+
+"git clone"
+use: Copies a repository from a remote source to your local machine
+parameters: Repository URL
+Ex: git clone https://github.com/example/repository.git
+
+==============================================================================================
+
+"git add"
+use: Adds changes in the working directory to the staging area
+parameters: File(s) or directory
+Ex: git add myfile.txt
+
+==============================================================================================
+
+"git commit"
+use: Records changes in the repository, creating a new account
+parameters: "-m"
+Ex: git commit -m "Add initial version of myfile.txt"
+
+==============================================================================================
+
+"git push"
+use: Uploads local repository content to a remote repository
+parameters: Remote repository and branch
+Ex: git push origin main
+
+==============================================================================================
+
+"git pull"
+use: Fetches changes from a remote repository and mergers them into the local branch
+parameters: Remote respository and branch
+Ex: git pull origin main
+
+==============================================================================================
+
+"git status"
+use: Shows the status oof changes as untracked, modified, or staged.
+Ex: git status
+
+==============================================================================================
+
+"git branch"
+use: Lists Existing branches or creates a new branch
+parameters:
+"-a" to show remote branches
+Ex: git branch
+Ex: git branch new-feature
+
+==============================================================================================
+
+"git merge"
+use: merges changes from one branch into another
+parameters: Branch to merge into the current branch
+Ex: git merge new-feature
+
+==============================================================================================
+
+"git log"
+use: Displays a log of commits
+Ex: git log
+
+
+
+.
